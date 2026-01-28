@@ -2,9 +2,10 @@ package com.savio.supermercado.app;
 
 import com.savio.supermercado.model.*;
 
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -37,7 +38,7 @@ public class Main {
             System.out.println("3. Remover Item");
             System.out.println("4. Finalizar Pedido");
             System.out.println("0. Sair");
-            System.out.print("Escolha: ");
+            System.out.print("\nEscolha: ");
             opcao = sc.nextInt();
 
             switch (opcao) {
